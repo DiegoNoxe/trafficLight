@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div onclick="trocaFundo()" class="moon"><i class="fa-solid fa-moon"></i></div>
+    <div onclick="trocaFundo()" class="sun"><i class="fa-solid fa-sun"></i></div>
+
+    <div class="fundo">
+        <div id="red"     class="light"></div>
+        <div id="yellow"  class="light"></div>
+        <div id="green"   class="light"></div>
+    </div>
+    <div class="botoes">
+        <div class="pedidos">
+             <button  class="btd-pedir btd" onclick="pedirPassagem()">Pedir <br> passagem</button>
+        </div>
+        
+        <div class="parar-sinal">
+            <button class="btd-parar btd" onclick="pararSinal()">Parar <br> sinal</button>
+            <button class="btd-parar btd" onclick="voltaSinal()"> Volta<br>sinal</button>
+         </div>
+    </div>
+   
+    
+    <div class="caminhada">
+        <img src="ZfUU.gif" alt="">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
